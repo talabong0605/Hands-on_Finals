@@ -77,7 +77,7 @@ body {
     left: 10%; /* Center horizontally */
     width: 450px;
     height: 450px;
-    background-image: url('IMG20240614200822.jpg'); /* Replace with your photo file */
+    background-image: url('https://github.com/talabong0605/Hands-on_Finals/blob/main/IMG20240614200822.jpg'); /* Replace with your photo file */
     background-size: cover;
     background-position: center 35%;
     border-radius: 50%; /* Makes it a perfect circle */
