@@ -43,7 +43,7 @@ body {
 }
 
 .menu-toggle {
-    display: none;
+    display: flex;
     font-size: 25px;
     color: white;
     cursor: pointer;
@@ -89,7 +89,7 @@ body {
     }
 
 .hero .btn {
-    display: inline-block;
+    display: flex;
     background-color: darkblue;
     color: white;
     text-decoration: none;
