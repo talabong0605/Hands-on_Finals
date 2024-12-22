@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CATH</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills & Work Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+    </script>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="circle"></div>
+        <div>
+            <h1>Welcome to My Website</h1>
+            <p>I am CATHERINE A. Talabong and I am a IT Student.</p>
+            <p>Let the journey to excellence starts here.</p>
+            <a href="#about" class="btn">Want to Know More About ME?</a>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="about" id="about">
+        <div>
+            <h1>ABOUT ME</h1>
+            <p>I am CATHERINE A. TALABONG and I am a 2nd Year College Student.<br>Taking Bachelor of Science in Information Technology at the moment.</p>
+            <h2>EDUCATION</h2>
+            <p>Elementary : Gulang-Gulang Elementary School</p>
+            <p>Year : 2012 - 2017</p>
+
+            <p>High School : Gulang-Gulang National High School</p>
+            <p>Year : 2017 - 2021</p>
+
+            <p>Senior High School : Gulang-Gulang National High School</p>
+            <p>Year : 2021 - 2023</p>
+
+            <p>College : Dalubhasaan ng Lungsod ng Lucena</p>
+            <p>Year : 2023 - Current</p>
+
+        </div>
+    </section>
+
+    <!-- Skills and Work Experience -->
+    <section class="skills" id="skills">
+        <div>
+            <h2>SKILLS</h2>
+                <div class="skills-container">
+                    <!-- Skill 1 -->
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <div class="skill-title">Web Development</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                    </div>
+                    <!-- Skill 2 -->
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <div class="skill-title">Graphic Design</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <!-- Skill 3 -->
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa fa-database"></i>
+                        </div>
+                        <div class="skill-title">Data Management</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- Skill 4 -->
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa fa-language"></i>
+                        </div>
+                        <div class="skill-title">Multilingual Communication</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            <h2>WORK EXPERIENCE</h2>
+                <div class="work-container">
+            <p>None at the moment</p>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project" id="projects">
+        <div>
+            <h2>PROJECTS</h2>
+            <p>No projects available at the moment.</p>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <section class="foot">
+        <!-- CONTACTS -->
+        <section class="contact" id="contact">
+            <div>
+                <h4>CONTACT ME</h4>
+                <p><strong>Email : </strong><a href="https://mail.google.com/mail/u/0/#inbox">catherinetalabong111@gmail.com</a></p>
+                <p><strong>Phone : </strong> +63916 698 2084 or +6346 272 9943</p>
+                <a href="https://github.com/talabong0605", target="_blank">GITHUB</a><br>
+                <a href="https://web.facebook.com/catherine.talabong", target="_blank">FACEBOOK</a>
+            </div>
+            <div>
+                <p>Alright Reserved 2024</p>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
